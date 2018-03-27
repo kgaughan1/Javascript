@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<h1>
+		Register
+	</h1>
+
+	<form>
+		
+		<div>
+			<label>First Name: </label>
+			<input type="text" name="First Name" placeholder="Kevin" required>
+			<label>Last Name: </label>
+			<input type="text" name="" placeholder="Gaughan" required>
+		</div>
+		<div>
+			<label>Male </label>
+			<input type="radio" name="Sex">
+			<label>Female </label>
+			<input type="radio" name="Sex">
+			<label>Other</label>
+			<input type="radio" name="Sex">	
+		</div>
+
+		<div>
+			<label>Email: </label>
+			<input type="email" name="" placeholder="Your Email" required="">
+			<label>Password: </label>
+			<input type="password" name="" placeholder="Your Password" pattern=".{5,10}" required="" title="Fill in 5 to 10 characters">
+		</div>
+
+		<label>Birthday: </label>
+		<SELECT name="Month">
+			<option>January</option>
+			<option>February</option>
+			<option>March</option>
+		</SELECT>
+		<select name="Day">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<select name="Year">
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>1995</option>
+			<option>1996</option>
+		</select>
+		<p>
+			I agree to the terms and conditions.
+			<input type="checkbox" name="Conditions" value="True" required>
+		</p>
+		<input type="submit" name="">
+
+	</form>
+</body>
+</html>
